@@ -1,0 +1,257 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+  }
+  
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  
+  header p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  
+  /* About Me Section */
+  .about {
+    padding: 20px 0;
+  }
+  
+  
+  .about h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  
+  /* Skills Section */
+  .skills h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .skills li {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  
+  /* Experience Section */
+  .experience h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .job {
+    padding: 10px 0;
+  }
+  
+  
+  .job h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  
+  .job p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  .job ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .job li {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+   /* Activities Section */
+   .Activities h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .Activities {
+    padding: 10px 0;
+  }
+  
+  
+  .Activities h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  
+  .Activities p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  .Activities ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  .Activities li {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  
+  /* Education Section */
+  .education h2 {
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  
+  .education p {
+    font-size: 16px;
+  }
+  
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .img-profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 2px;
+  }
+
+  /* contact html */
+  .contact-form body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.contact-form h3 {
+    text-align: center;
+    color: #333;
+}
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+.contact-form ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.back-button {
+    text-align: center; /* จัดให้อยู่กลาง */
+    margin-top: 20px; /* เว้นระยะด้านบน */
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีของข้อความ */
+    border-radius: 4px; /* มุมโค้ง */
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+}
+
+.back-button a:hover {
+    background-color: #0056b3; /* เปลี่ยนสีเมื่อเลื่อนเมาส์ */
+}
